@@ -34,21 +34,21 @@ const HappyClient = () => {
         </div>  
         <div className='flex flex-col md:w-1/3 md:mt-20'>
           <div className='flex flex-row space-x-4 justify-center md:order-3 md:items-start md:justify-start py-6'>
-              <Image src={Ellipsedot} alt="dot" />
-              <Image src={EllipseWhite} alt="dot" />
-              <Image src={EllipseWhite} alt="dot" />
-              <Image src={EllipseWhite} alt="dot" />
+              <Image src={Ellipsedot} className='cursor-pointer' alt="dot" />
+              <Image src={EllipseWhite} className='cursor-pointer'  alt="dot" />
+              <Image src={EllipseWhite} className='cursor-pointer'  alt="dot" />
+              <Image src={EllipseWhite} className='cursor-pointer'  alt="dot" />
             </div>
           <h1 className='text-2xl font-medium text-center py-2 md:order-1 md:text-left md:py-6'>Matthew Paul</h1>
-          <p className='text-fray-600 text-center md:order-2 md:text-left'>Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality and quick turnaround time. Highly recommend.</p>
+          <p className='text-fray-600 text-center md:order-2 md:text-left text-gray-600'>Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality and quick turnaround time. Highly recommend.</p>
         </div>
         <div className='' >
           <div className='relative md:block hidden mt-20 ml-16'>
             <svg xmlns="http://www.w3.org/2000/svg" width="184" height="184" viewBox="0 0 184 184" fill="none">
               <circle cx="92" cy="92" r="92" fill="#FFF5DB"/>
             </svg>
-            <div className='absolute z-10 -top-10 -left-10'>
-              <Image src={client2} alt="c2" />
+            <div className='absolute z-10 -top-10 -left-10 '>
+              <Image src={client2} alt="c2"  />
             </div>
             <div className='absolute z-10 -top-28 left-24'>
               <Image src={client3} alt="c3" />

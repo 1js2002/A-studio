@@ -13,10 +13,10 @@ const ClientLogo = () => {
         <p className='text-gray-600 font-normal text-center md:text-left'>Several selected clients, who already <br></br> believe in our service.</p>
       </div>
       <div className='flex md:flex-row md:justify-around md:space-x-20 flex-wrap my-6 mx-3 items-center justify-center '>
-        <Image className='p-4' src={Google} alt="google" />
-            <Image className='p-4' src={Airbnb} alt="google" />
-            <Image className='p-4'src={Uber} alt="google" />
-        <Image className='p-4' src={Amazon} alt="google" />
+        <Image className='p-4 cursor-pointer' src={Google}  alt="google" />
+            <Image className='p-4 cursor-pointer' src={Airbnb} alt="google" />
+            <Image className='p-4 cursor-pointer'src={Uber} alt="google" />
+        <Image className='p-4 cursor-pointer' src={Amazon} alt="google" />
       </div>
     </div>
   )

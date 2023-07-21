@@ -10,7 +10,7 @@ const Contact = () => {
       <div className='mx-auto w-full flex flex-col md:flex-row  '>
         <div className='md:w-1/4 md:mx-32 mb-4 mx-4 '>
               <h2 class="pb-5  text-2xl font-semibold uppercase ">A+ Studio</h2>
-              <p className='pb-2 pr-10'>Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</p>
+              <p className='pb-2 pr-10 text-gray-600'>Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</p>
           </div>  
       <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         
@@ -78,7 +78,7 @@ const Contact = () => {
         <Image src={linkedin} alt="linkedin"  className='cursor-pointer'/>
         <Image src={facebook} alt="facebook" className='cursor-pointer' />
       </div>
-      <hr className='mx-10'></hr>
+      <hr className='mx-10 my-4'></hr>
       <div className='flex justify-center text-center text-gray-500'>Copyright © 2023 Dinesh</div>
     </footer>
   )

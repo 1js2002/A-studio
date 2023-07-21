@@ -11,7 +11,7 @@ const Subscribe = () => {
             <form className=' relative flex items-center justify-center my-2 md:w-1/2 md:my-12 md:mr-20 '>
                 <div class="flex items-center justify-center absolute">
                     <input type="email" className='w-[450px] h-16 shadow-lg outline-none rounded-[60px] px-10' name="email" id="email" placeholder="Enter your email adress.." />
-                    <button type="submit" className='bg-blue-600 text-white rounded-[60px] w-[150px] h-12 absolute top-2  right-5'>Contact Now</button>
+                    <button type="submit" className='bg-[#2639ED] hover:bg-blue-800 text-white rounded-[60px] w-[150px] h-12 absolute top-2  right-5'>Contact Now</button>
                 </div>
             </form> 
             <div className='absolute -z-20 -top-10 '>

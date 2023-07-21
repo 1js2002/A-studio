@@ -8,9 +8,9 @@ const Service = () => {
   return (
     <div className='min-h-screen flex flex-col md:flex-row items-center justify-center relative '>
       <div className='w-full py-3 md:pr-5 flex justify-center items-center relative  ' >
-        <Image className='rounded-[40px] hover:shadow-lg transition duration-300 ease-in-out ' src={vid} alt="vid" />
+        <Image className='rounded-[40px]  transition duration-300 ease-in-out ' src={vid} alt="vid" />
         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10'>
-          <Image src={play} className='' alt="play" />
+          <Image src={play} className='cursor-pointer' alt="play" />
         </div>
         <div className='absolute -z-10 right-20 bottom-4'>
           <Image src={eclipse} alt='ecp' />

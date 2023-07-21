@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 
@@ -65,11 +64,14 @@ export default function Header() {
           &#8801;
         </a>
         {isMenuOpen && (
-          <ul className="absolute top-16 right-4 p-6 rounded-md shadow-md" style={{ backgroundColor: "white", color: "black" }}>
+          <ul
+            className="absolute top-16 right-4 p-6 rounded-md shadow-md"
+            style={{ backgroundColor: "white", color: "black" }}
+          >
             {menuItems.map((item) => (
               <li key={item.id}>
                 <Link href={`#${item.id}`}>
-                  <span className="hover:bg-gray-100  rounded-sm">
+                  <span className="hover:bg-gray-100 rounded-sm">
                     {item.label}
                   </span>
                 </Link>
