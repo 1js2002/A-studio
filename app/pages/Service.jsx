@@ -17,7 +17,7 @@ const Service = () => {
         </div>
       </div>
       <div className='relative w-full flex-col text-center  flex md:justify-center md:items-start mx-auto '>
-        <h1 className="text-4xl py-7 md:text-left">Great Digital Product<br></br> Agency since 2016 </h1>
+        <h1 className="text-4xl font-semibold font-averta py-7 md:text-left">Great Digital Product<br></br> Agency since 2016 </h1>
         <p className='text-gray-600 md:text-left md:mr-36'>Our Business Plan is a written document describing a company's core business activites, Objectives, and how it plans to achieve its goals. Our goal is to provide our client high quality Product with modern idea accordingly their budgets and according thir reuirements.</p>
         <div className='absolute md:block hidden -top-4 -z-10 -left-16  '>
           <svg width="178" height="178" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg">

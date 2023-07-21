@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
-
 import Header from './components/Header'
 import Contact from './pages/Contact'
 import Service from './pages/Service'

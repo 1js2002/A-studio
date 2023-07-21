@@ -6,9 +6,8 @@ const Home = () => {
   return (
     <div className="relative w-full flex md:flex-row flex-col py-6">
       <div className="md:w-1/2 md:ml-[140px] md:mt-36">
-        <h1 className="text-center text-4xl font-semibold md:text-left md:flex justify-start my-3 ">A Digital Product Agency</h1>
-        <p className="text-center text-gray-600 md:text-left  md:flex justify-start my-3">Leading digital agency with solid design and development <br />expertise. We build readymade websites, mobile applications,<br /> and elaborate online business services.</p>
-       
+        <h1 className="text-center font-averta-demo-pe-cutted-demo text-4xl font-semibold md:text-left md:flex justify-start my-3 ">A Digital Product Agency</h1>
+        <p className="text-center text-gray-600 md:text-left  md:flex justify-start my-3">Leading digital agency with solid design and development <br />expertise. We build readymade websites, mobile applications,<br /> and elaborate online business services.</p>       
           <div className="flex items-center justify-center md:justify-start  md:my-4"><button className="bg-blue-600 w-52 h-20 rounded-[60px] my-6 ">Contact Now</button></div>
         
       </div>
@@ -192,9 +191,9 @@ const Home = () => {
           <circle cx="192.5" cy="150.5" r="3.5" fill="#F4F4F4"/>
         </svg>
       </div>
-      
     </div>
   );
 };
 
 export default Home;
+
