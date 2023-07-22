@@ -25,11 +25,12 @@ const Service = () => {
           Great Digital Product<br></br> Agency since 2016{" "}
         </h1>
         <p className="text-gray-600 md:text-left md:mr-36">
-          Our Business Plan is a written document describing a company's core
-          business activites, Objectives, and how it plans to achieve its goals.
-          Our goal is to provide our client high quality Product with modern
-          idea accordingly their budgets and according thir reuirements.
+          Our Business Plan is a written document describing a company&apos;s core
+          business activities, Objectives, and how it plans to achieve its goals.
+          Our goal is to provide our client high-quality Product with a modern
+          idea accordingly to their budgets and according to their requirements.
         </p>
+
         <div className="absolute md:block hidden -top-4 -z-10 -left-16  ">
           <svg
             width="178"
