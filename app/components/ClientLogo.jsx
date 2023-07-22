@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import Google from "../assets/google.png";
+import google from "../assets/google.png";
 import Uber from "../assets/Uber.png";
 import Airbnb from "../assets/Airbnb.png";
 import Amazon from "../assets/Amazon.png";
@@ -18,7 +18,7 @@ const ClientLogo = () => {
         </p>
       </div>
       <div className="flex md:flex-row md:justify-around md:space-x-20 flex-wrap my-6 mx-3 items-center justify-center ">
-        <Image className="p-4 cursor-pointer" src={Google} alt="google" />
+        <Image className="p-4 cursor-pointer" src={google} alt="google" />
         <Image className="p-4 cursor-pointer" src={Airbnb} alt="google" />
         <Image className="p-4 cursor-pointer" src={Uber} alt="google" />
         <Image className="p-4 cursor-pointer" src={Amazon} alt="google" />

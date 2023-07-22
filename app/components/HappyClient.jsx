@@ -11,8 +11,8 @@ import client8 from "../assets/client8.png";
 
 import client9 from "../assets/client9.png";
 
-import Ellipsedot from "../assets/Ellipsedot.png";
 import EllipseWhite from "../assets/EllipseWhite.png";
+import Ellipsedot from "../assets/Ellipsedot.png";
 
 const HappyClient = () => {
   return (
@@ -141,7 +141,7 @@ const HappyClient = () => {
             <Image src={EllipseWhite} className="cursor-pointer" alt="dot" />
             <Image src={EllipseWhite} className="cursor-pointer" alt="dot" />
             <Image src={EllipseWhite} className="cursor-pointer" alt="dot" />
-            <Image src={EllipseWhite} className="cursor-pointer" alt="dot" />
+            <Image src={EllipseWhite} className="cursor-pointer" alt="dot" /> 
           </div>
           <h1 className="text-2xl font-semibold text-center py-2 md:order-1 md:text-left md:py-6">
             Matthew Paul
