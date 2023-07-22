@@ -7,20 +7,29 @@ import Image from "next/image";
 
 const WhatWeDo = () => {
   return (
-    <div className="min-h-screen flex relative flex-col md:flex-row max-w-full md:ml-7 ">
+    <div className="h-full flex relative flex-col md:flex-row max-w-full md:ml-7 ">
       {/* text */}
       <div className="md:w-[40%] md:ml-24 md:flex flex-col md:justify-center">
         <h1 className="text-4xl font-semibold text-center md:text-left p-2 md:py-5 ">
-          How can we help your  <br/> Business ?
+          How can we help your <br /> Business ?
         </h1>
         <p className="text-gray-600 font-normal text-center md:text-left p-2 md:py-5">
           We build readymade websites, mobile applications,
           <br /> and elaborate online business services.
         </p>
         <div className="hidden md:block absolute top-96 left-12 -z-10">
-        <svg width="178" height="178" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M178 178L0 178L6.81898e-06 100C1.16472e-05 44.7715 44.7715 -1.16472e-05 100 -6.81898e-06L178 0L178 178Z" fill="#FFF5DB"/>
-        </svg>
+          <svg
+            width="178"
+            height="178"
+            viewBox="0 0 178 178"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M178 178L0 178L6.81898e-06 100C1.16472e-05 44.7715 44.7715 -1.16472e-05 100 -6.81898e-06L178 0L178 178Z"
+              fill="#FFF5DB"
+            />
+          </svg>
         </div>
       </div>
 
@@ -38,10 +47,21 @@ const WhatWeDo = () => {
           <DevelopmentCard />
         </div>
         <div className="hidden md:block absolute -z-10 right-0 bottom-52">
-          <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="60" cy="60" r="55.6" stroke="#FF007A" stroke-width="8.8"/>
+          <svg
+            width="120"
+            height="120"
+            viewBox="0 0 120 120"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="60"
+              cy="60"
+              r="55.6"
+              stroke="#FF007A"
+              stroke-width="8.8"
+            />
           </svg>
-
         </div>
       </div>
 

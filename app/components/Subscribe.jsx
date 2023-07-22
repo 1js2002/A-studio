@@ -4,14 +4,14 @@ const Subscribe = () => {
   return (
     <div className="relative md:h-[45%] h-[30%] md:mx-40 my-20">
         <div className="flex flex-col md:flex-row md:w-full relative">
-            <div className="info my-5 md:w-1/2 ">
-                <h1 className='text-center md:text-left font-Averta-Demo-PE-Cutted-D-emo md:px-10 text-4xl font-bold py-8 '>Subscribe Newsletter</h1>
-                <p className='font-averta-demo-pe-cutted-demo  text-center md:text-left md:px-10 text-gray-600 py-0'>I will update good news and promotion service not spam</p>
+            <div className="info my-5 md:w-1/2 md:ml-16 ">
+                <h1 className='text-center md:text-left font-Averta-Demo-PE-Cutted-D-emo md:px-10 text-4xl font-bold py-7  '>Subscribe Newsletter</h1>
+                <p className='font-averta-demo-pe-cutted-demo  text-center md:text-left md:px-10 text-gray-600 pb-4 mb-2'>I will update good news and promotion service not spam</p>
             </div>
             <form className=' relative flex items-center justify-center my-2 md:w-1/2 md:my-12 md:mr-20 '>
-                <div class="flex items-center justify-center absolute">
-                    <input type="email" className='w-[450px] h-16 shadow-lg outline-none rounded-[60px] px-10' name="email" id="email" placeholder="Enter your email adress.." />
-                    <button type="submit" className='bg-[#2639ED] hover:bg-blue-800 text-white rounded-[60px] w-[150px] h-12 absolute top-2  right-5'>Contact Now</button>
+                <div class="flex items-center justify-center absolute ">
+                    <input type="email" className='md:w-[550px] w-[450px] h-20 shadow-lg outline-none rounded-[60px] px-10' name="email" id="email" placeholder="Enter your email adress.." />
+                    <button type="submit" className='bg-[#2639ED] hover:bg-blue-800 text-white rounded-[60px] w-[130px] md:w-[150px] h-14 absolute top-3 right-3'>Contact Now</button>
                 </div>
             </form> 
             <div className='absolute -z-20 -top-10 '>

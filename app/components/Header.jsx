@@ -36,26 +36,26 @@ export default function Header() {
   ];
   return (
     <header className="top-0 relative p-4 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
-      <h1 className="text-3xl">A+studio</h1>
+      <h1 className="text-3xl cursor-pointer"><span className="font-bold">A</span>+studio</h1>
       {/* Small menu for mobile devices */}
       <ul className="md:flex hidden justify-end space-x-[60px]">
         <Link href="#home">
-          <li className="">Home</li>
+          <li className="hover:text-gray-700 font-medium">Home</li>
         </Link>
         <Link href="#whatwedo">
-          <li className="">WhatWeDo</li>
+          <li className="hover:text-gray-700 font-medium">WhatWeDo</li>
         </Link>
         <Link href="#service">
-          <li className="">Service</li>
+          <li className="hover:text-gray-700 font-medium">Service</li>
         </Link>
         <Link href="#product">
-          <li className="">Product</li>
+          <li className="hover:text-gray-700 font-medium">Product</li>
         </Link>
         <Link href="#blog">
-          <li className="">Blog</li>
+          <li className="hover:text-gray-700 font-medium">Blog</li>
         </Link>
         <Link href="#contact">
-          <li className="">Contact</li>
+          <li className="hover:text-gray-700 font-medium">Contact</li>
         </Link>
       </ul>
       <div className="md:hidden">
@@ -71,7 +71,7 @@ export default function Header() {
             {menuItems.map((item) => (
               <li key={item.id}>
                 <Link href={`#${item.id}`}>
-                  <span className="hover:bg-gray-100 rounded-sm">
+                  <span className="hover:text-gray-700 rounded-sm">
                     {item.label}
                   </span>
                 </Link>
