@@ -11,7 +11,7 @@ import client8 from "../assets/client8.png";
 
 import client9 from "../assets/client9.png";
 
-import EllipseWhite from "../assets/EllipseWhite.png";
+import Ellipse from "../assets/Ellipse.png";
 import Ellipsedot from "../assets/Ellipsedot.png";
 
 const HappyClient = () => {
@@ -138,10 +138,10 @@ const HappyClient = () => {
         <div className="flex flex-col md:w-1/3 md:mt-20">
           <div className="flex flex-row space-x-7 justify-center md:order-3 md:items-start md:justify-start py-6">
             <Image src={Ellipsedot} className="cursor-pointer" alt="dot" />
-            <Image src={EllipseWhite} className="cursor-pointer" alt="dot" />
-            <Image src={EllipseWhite} className="cursor-pointer" alt="dot" />
-            <Image src={EllipseWhite} className="cursor-pointer" alt="dot" />
-            <Image src={EllipseWhite} className="cursor-pointer" alt="dot" /> 
+            <Image src={Ellipse} className="cursor-pointer" alt="dot" />
+            <Image src={Ellipse} className="cursor-pointer" alt="dot" />
+            <Image src={Ellipse} className="cursor-pointer" alt="dot" />
+            <Image src={Ellipse} className="cursor-pointer" alt="dot" /> 
           </div>
           <h1 className="text-2xl font-semibold text-center py-2 md:order-1 md:text-left md:py-6">
             Matthew Paul
